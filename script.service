@@ -1,0 +1,10 @@
+[Unit]
+Description=Monitoring process
+
+[Service]
+Type=simple
+ExecStart=/home/andrey704/main.sh
+User=root
+
+[Install]
+WantedBy=multi-user.target
